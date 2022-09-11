@@ -1,8 +1,8 @@
 /*
-› Create By Haikal
-› Base Ori Haikal
+› Create By Kiki
+› Base Ori Kiki
 
-🌷 KALAU MAU RENAME TARO CREDITS GUA : The Squad */
+TARO CREDITS GUA : KIKI ORI */
 
 require('./hwkal')
 const { default: makeWASocket, useSingleFileAuthState, DisconnectReason, fetchLatestBaileysVersion, generateForwardMessageContent, prepareWAMessageMedia, generateWAMessageFromContent, generateMessageID, downloadContentFromMessage, makeInMemoryStore, jidDecode, proto } = require("@adiwajshing/baileys")
@@ -160,7 +160,7 @@ document: fs.readFileSync('./baseikal/lib/tes.xlsx'),
 mimetype: feler,
 jpegThumbnail:buffer,
 mentions: [num],
-fileName: `HELLO KAMU 👋 @${num.split("@")[0]}`,
+fileName: `HELLO KAMU INTRO YA 👋 @${num.split("@")[0]}`,
 fileLength: 99999999999999,
 caption: he,
 contextInfo:{externalAdReply:{
