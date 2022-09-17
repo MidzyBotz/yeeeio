@@ -4298,7 +4298,7 @@ SILAHKAN KETIK MENU UNTUK MENGGUNAKAN BOT LEBIB LANJUT ✌️`,
 },
 "businessOwnerJid": "6289653430712@s.whatsapp.net",
 }
-}), { userJid: m.chat, quoted: Kiki })
+}), { userJid: m.chat, quoted: hw })
 haikal.relayMessage(m.chat, catalog.message, { messageId: catalog.key.id })
 }
 break
