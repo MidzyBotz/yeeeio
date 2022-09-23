@@ -2988,15 +2988,7 @@ haikal.sendMessage(m.chat, mllo, { quoted: mek })
 }
 break
 //=================================================//
-  case 'facebook': case 'fbdl': case 'fb':
-            if (isBan) throw sticBanLu(from)
-if (!isRegistered) return replyReg(mess.verif)
-if (!text) throw `Example : ${prefix + command} link fb`
-            scrape.facebook(args[1]).then( data => {
-                var but_fb = [ { buttonId: prefix+'fbmp3 ' + args[1], buttonText: { displayText: '🎧 Audio' }, type: 1 } ]
-                haikal.sendMessage(from, { video: { url: data.sd }, caption: data.title, footer: 'click the button below to change the video to audio', buttons: but_fb }, { quoted: mek })           
-            }
-            break
+
 case 'play': case 'ytplay': {
 if (isBan) throw sticBanLu(from)
 if (!isRegistered) return replyReg(mess.verif)
